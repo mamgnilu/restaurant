@@ -13,6 +13,8 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css'/>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -393,6 +395,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js'></script>
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.js'></script>
+
+    
     <script>
         var foodStock = [
             "food-salad-dinner-eating.jpg",
@@ -575,7 +580,7 @@ $("#link-dessert").click(function(){
 
 <script>
     $(document).ready(function () {
-        /*$("body").off("click", ".btn-commander").on("click", ".btn-commander",function(){
+        $("body").off("click", ".btn-commander").on("click", ".btn-commander",function(){
         console.log($(this).text());  
 
         //Recuperation des donnes   
@@ -604,9 +609,9 @@ window.location.href = "formulaire.html";
 })
 
 
-    });*/
+    });
 
-    $(".btn-commander").click(function (e) {
+   /* $(".btn-commander").click(function (e) {
                 e.preventDefault();
                 Swal.fire({
                     title: 'Confirmer',
@@ -628,7 +633,7 @@ window.location.href = "formulaire.html";
                     }
                 })
 
-            });
+            });*/
 
 
 
